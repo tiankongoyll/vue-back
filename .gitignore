@@ -23,5 +23,3 @@ yarn-error.log*
 lib
 .idea
 package-lock.json
-Dockerfile
-.dockerignore
