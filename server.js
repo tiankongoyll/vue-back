@@ -2,7 +2,7 @@ let http =require('http')
 let users= [
     {id:1,name:'zhufeng1'},
     {id:2,name:'zhufeng2'},
-    {id:3,name:'zhufeng23'}
+    {id:3,name:'zhufeng3'}
 ]
 let server = http.createServer(function(req,res){
     res.setHeader('Access-Control-Allow-Origin','*')
@@ -15,5 +15,4 @@ let server = http.createServer(function(req,res){
 server.listen(3000,()=>{
     console.log('后端api接口已启动在3000端口')
 })
-
 
